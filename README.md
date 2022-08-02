@@ -1,5 +1,18 @@
 # Cytus1 to CTViewer
 
+Requirements
+```
+tqdm
+```
+
+### 目的
+
+生成[CTVIEWER](http://ctviewer.laishin.net/charts)上没有的谱面图，比如Chapter L (New)
+
+### 不足
+
+无法生成小节线
+
 把CYTUS1官谱格式：
 ```
 VERSION 2
