@@ -4,6 +4,10 @@
 
 - tqdm
 
+```
+pip install tqdm
+```
+
 ### 使用方法：
 
 直接打开HTML文件将无法预览，我提供的方法是使用http.server来打开，具体使用方法如下：
