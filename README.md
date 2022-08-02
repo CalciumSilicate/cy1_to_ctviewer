@@ -22,9 +22,11 @@ LINK X Y Z
 
 2. 运行main.py
 
-3. 以8089端口运行http.server，如果需要指定其他端口，需要同时在res/main.html和utils.py里面修改端口
+3. 于main.py所在目录以8089端口运行http.server，如果需要指定其他端口，需要同时在res/main.html和utils.py里面修改端口
 ```
 python -m http.server 8089
 ```
 
 4. 使用浏览器访问[http://127.0.0.1:8089/output_html/](http://127.0.0.1:8089/output_html/)
+
+注意：一定要使用127.0.0.1而不能使用localhost登录
