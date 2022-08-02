@@ -14,4 +14,4 @@ LINK A B C（定义锁链的各个节点）
 ...
 LINK X Y Z
 ```
-转化为[CTVIEWER](http://ctviewer.laishin.net/charts)可以识别的JSON格式
+转化为[CTVIEWER](http://ctviewer.laishin.net/charts)可以识别的JSON格式，比如[点我](http://ctviewer.laishin.net/assets/freedom_dive_hidden_hard-41da874e1f78708620af7128c1e680fc.json)，并且生成html文件以供浏览
