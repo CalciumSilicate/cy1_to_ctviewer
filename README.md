@@ -2,7 +2,7 @@
 
 代码写得很史，能用就行
 
-### Requirements
+## Requirements
 
 - tqdm
 
@@ -10,7 +10,7 @@
 pip install tqdm
 ```
 
-### 使用方法：
+## 使用方法
 
 直接打开HTML文件将无法预览，我提供的方法是使用http.server来打开，具体使用方法如下：
 
@@ -27,11 +27,11 @@ python -m http.server 8089
 
 注意：一定要使用127.0.0.1而不能使用localhost登录
 
-### 不足
+## 不足
 
 无法生成小节线
 
-### 用途
+## 用途
 
 生成[CTVIEWER](http://ctviewer.laishin.net/charts)上没有的谱面图，比如Chapter L (New)
 
@@ -51,6 +51,6 @@ LINK X Y Z
 ```
 转化为[CTVIEWER](http://ctviewer.laishin.net/charts)可以识别的JSON格式，比如[这里](http://ctviewer.laishin.net/assets/freedom_dive_hidden_hard-41da874e1f78708620af7128c1e680fc.json)，并且生成html文件以供浏览，比如[这里](http://ctviewer.laishin.net/charts/freedom_dive_hidden/hard)
 
-### 感谢
+## 感谢
 
 [CTVIEWER](http://ctviewer.laishin.net/charts)
