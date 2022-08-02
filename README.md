@@ -1,4 +1,4 @@
-# cy1_to_ctviewer
+# Cytus1 to CTViewer
 
 把CYTUS1官谱格式：
 ```
