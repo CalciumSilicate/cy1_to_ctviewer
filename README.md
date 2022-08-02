@@ -51,3 +51,6 @@ LINK X Y Z
 ```
 转化为[CTVIEWER](http://ctviewer.laishin.net/charts)可以识别的JSON格式，比如[这样](http://ctviewer.laishin.net/assets/freedom_dive_hidden_hard-41da874e1f78708620af7128c1e680fc.json)，并且生成html文件以供浏览
 
+### 感谢
+
+[CTVIEWER](http://ctviewer.laishin.net/charts)
