@@ -2,7 +2,7 @@
 
 ### Requirements
 
-tqdm
+- tqdm
 
 ### 使用方法：
 
