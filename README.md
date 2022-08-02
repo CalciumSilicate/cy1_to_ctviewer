@@ -1,5 +1,7 @@
 # Cytus1 to CTViewer
 
+代码写得很史，能用就行
+
 ### Requirements
 
 - tqdm
