@@ -27,6 +27,6 @@ LINK X Y Z
 python -m http.server 8089
 ```
 
-4. 使用浏览器访问[http://127.0.0.1:8089/output_html/](http://127.0.0.1:8089/output_html/)
+4. 使用浏览器访问[http://127.0.0.1:8089/output_html/](http://127.0.0.1:8089/output_html/)并选择需要浏览的谱面
 
 注意：一定要使用127.0.0.1而不能使用localhost登录
