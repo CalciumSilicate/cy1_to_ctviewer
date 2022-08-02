@@ -11,4 +11,4 @@ NOTE n XXXX XXXX XXXX
 LINK N1 N2 N3
 ...
 ```
-转化为CTVIEWER（http://ctviewer.laishin.net/charts）可以识别的JSON格式
+转化为[CTVIEWER](http://ctviewer.laishin.net/charts)可以识别的JSON格式
