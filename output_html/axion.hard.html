@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head><title>CUSTOM (Custom) | Chart | CTViewer</title>
+    <link href="http://ctviewer.laishin.net/assets/application-4c6fb379f54cc1157626a30b21ca9a2c.css" media="screen" rel="stylesheet"/>
+    <script src="http://127.0.0.1:8089/res/application.js"></script>
+    <meta content="authenticity_token" name="csrf-param"/>
+    <meta content="GBH8m8hfeYaoHArD5VymMcrnfIDbwZOsdve5TWuqiIw=" name="csrf-token"/>
+    <meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"
+          name="viewport"/>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript">var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-40464458-3']);
+_gaq.push(['_trackPageview']);
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+    </script>
+</head>
+<body id="charts-show">
+<header class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle" data-target="#header-nav-collapse" data-toggle="collapse" type="button"><span
+                    class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            <a class="navbar-brand" href="http://ctviewer.laishin.net">CTViewer</a></div>
+        <div class="collapse navbar-collapse" id="header-nav-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="http://ctviewer.laishin.net/charts">Charts</a></li>
+                <li class=" "><a href="http://ctviewer.laishin.net/players">Players</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="http://ctviewer.laishin.net/players/13017/records">My Records</a></li>
+                <li><a href="http://ctviewer.laishin.net/settings/edit">Settings</a></li>
+                <li><a data-method="delete" href="http://ctviewer.laishin.net/users/sign_out" rel="nofollow">Sign out</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+<div class="container"><h1><small>Custom</small><br/>Custom<small style="margin-left: 15px;">Custom</small><small
+        class="text-danger" style="margin-left: 15px;">Custom</small></h1>
+    <div class="row">
+        <div class="col-xs-12 col-sm-6">
+            <div class="row text-center song-details-title">
+                <div class="col-xs-2"><p>Level</p></div>
+                <div class="col-xs-2"><p>BPM</p></div>
+                <div class="col-xs-2"><p>Total</p></div>
+                <div class="col-xs-2"><p>Clicks</p></div>
+                <div class="col-xs-2"><p>Holds</p></div>
+                <div class="col-xs-2"><p>Drags</p></div>
+            </div>
+            <div class="row text-center song-details-value">
+                <div class="col-xs-2"><p>Custom</p></div>
+                <div class="col-xs-2"><p>Custom</p></div>
+                <div class="col-xs-2"><p class="js-song-details-total">-</p></div>
+                <div class="col-xs-2"><p class="js-song-details-clicks">-</p></div>
+                <div class="col-xs-2"><p class="js-song-details-holds">-</p></div>
+                <div class="col-xs-2"><p class="js-song-details-drags">-</p></div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6"><p style="margin-top: 8px;"><a class="btn btn-default"
+                                                                       href="http://ctviewer.laishin.net/charts/freedom_dive_hidden/hard/autoplay"><span
+                class="glyphicon glyphicon-play"></span><span style="margin-left:7px;">Autoplay</span></a></p></div>
+    </div>
+    <div class="row song-container">
+        <hr/>
+        <div class="js-song-chart-container"><p class="js-song-chart-loading text-center"><br></br><img alt="Loader"
+                                                                                                        src="http://ctviewer.laishin.net/assets/loader-e74b4aa0a69d69c99244e4b0e50e72e2.gif"/><span>　Loading...</span><br></br><br></br><br></br><br></br><br></br>
+        </p></div>
+        <div class="container song-control-container js-song-control-container">
+            <ul class="row">
+                <li><a class="js-song-control" data-control="toggle_onion" href="#"><span
+                        class="glyphicon glyphicon-eye-open js-song-control-onion-inactive"></span><span
+                        class="glyphicon glyphicon-eye-close js-song-control-onion-active"></span></a></li>
+                <li><a class="js-song-control js-song-control-zoom-out-active" data-control="zoom_out" href="#"><span
+                        class="glyphicon glyphicon-zoom-out"></span></a><span
+                        class="inactive glyphicon glyphicon-zoom-out js-song-control-zoom-out-inactive"></span></li>
+                <li><a class="js-song-control js-song-control-zoom-in-active" data-control="zoom_in" href="#"><span
+                        class="glyphicon glyphicon-zoom-in"></span></a><span
+                        class="inactive glyphicon glyphicon-zoom-in js-song-control-zoom-in-inactive"></span></li>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript">$("h1").fitText(1, { minFontSize: '20px', maxFontSize: '36px' });
+$(".js-song-control-container").affix({
+  offset: { top: $(".js-song-chart-container").offset().top - 30 }
+});
+$(function(){new CTV.Chart.Viewer({jsonPath: "http://127.0.0.1:8089/output/axion.hard.json"});});
+    </script>
+</div>
+<footer><span><a href="http://ctviewer.laishin.net/agreement">Agreement</a></span><span>｜</span>
+    <address>Cytus ©2013 Rayark Inc. / CTViewer ©2013 laishin17 (mail[at]laish.in)</address>
+</footer>
+</body>
+</html>
